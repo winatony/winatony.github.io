@@ -17,7 +17,7 @@ permalink: /projects/
     </style>
 </head>
 <body>
-    <img src="/assets/images/hvp.png" alt="HVP" class="image-left" width="400">
+    <img src="/assets/images/viromeNIH.jpg" alt="HVP" class="image-left" width="400">
     <p>
         The NIH Common Fund Human Virome Program aims characterize the many viruses that reside inside us without causing disease and to improve our understanding of how they impact human health. The human virome is large and diverse. However, excluding the relatively small number of viruses that cause obvious clinical disease, viruses are largely understudied, and their interaction and impact on human health are unknown. Despite recent technological advances, significant challenges remain that have hindered progress, including detection sensitivity, contaminant removal, scalability, and sample adequacy. We are funded to build tools to identify auxiliary metabolic genes in viruses from the human microbiome. More on this project coming soon!
     </p>
