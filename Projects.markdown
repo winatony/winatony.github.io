@@ -38,7 +38,7 @@ permalink: /projects/
 <body>
     <img src="/assets/images/biosendures.png" alt="biosendures" class="image-left" width="400">
     <p>
-        The BioS-ENDURES Consortium (Biology in Space: Establishing Networks for Durable & Resilient Systems) is a NASA-funded collaboration among the University of Washington, Washington State University, and Pacific Northwest National Laboratory. Its mission is to advance space biology by focusing on human-plant-microbiome interactions, aiming to support sustainable human presence in low Earth orbit and beyond. Key objectives include developing biomonitoring tools, creating predictive models of organism interactions in space, and enhancing human and plant health through beneficial microbiome relationships. Read more <a href="https://bios-endures.space/" target="_blank">here</a> and <a href="https://www.pnnl.gov/publications/nasa-funds-pacific-northwest-consortium-advance-life-sciences-research-space" target="_blank">here</a><br />
+        The BioS-ENDURES Consortium (Biology in Space: Establishing Networks for Durable & Resilient Systems) is a NASA-funded collaboration among the University of Washington, Washington State University, and Pacific Northwest National Laboratory. Its mission is to advance space biology by focusing on human-plant-microbiome interactions, aiming to support sustainable human presence in low Earth orbit and beyond. Key objectives include developing biomonitoring tools, creating predictive models of organism interactions in space, and enhancing human and plant health through beneficial microbiome relationships. Read more <a href="https://bios-endures.space/" target="_blank">here</a> and <a href="https://www.pnnl.gov/publications/nasa-funds-pacific-northwest-consortium-advance-life-sciences-research-space" target="_blank">here.</a><br />
     </p>
 </body>
 </html>
@@ -69,15 +69,32 @@ Antibiotics are deployed against bacterial pathogens, but their targeting of con
 
 <font size = "10">Spatial 'Omics in the Rhizosphere</font><br />
 
-## Unlocking Biofuel Potential with Rhodococcus opacus
-In the push for renewable energy, Rhodococcus opacus has emerged as a microbial workhorse capable of transforming lignin—a waste product of plant biomass—into valuable biofuels and chemicals.
+## Synthetic biology for value added product synthesis
 
-Our research focused on enhancing this bacterium’s ability to produce triacylglycerols (TAGs), a key biofuel precursor, even under nitrogen-rich conditions. By overexpressing specific transcriptional regulators, we decoupled TAG production from nutrient limitation, boosting lipid yields on lignin-derived compounds​.
+<html>
+<head>
+    <style>
+        .image-left {
+            float: left;
+            margin-right: 15px;
+        }
+    </style>
+</head>
+<body>
+    <img src="/assets/images/ropacus_engineering.jpg" alt="ropacus_engineering" class="image-left" width="400">
+    <font size="2">
+Heatmap visualizing the differential expression of KEGG pathways after transcriptional regulator overexpression. Each mutant was compared to the WT strain grown using the same carbon source for differential expression in all the R. opacus’ annotated KEGG pathways (rows). Anthony et al. 2024 <i>Biotech for Biofuels</i>.</font>
+    <p>
+        <br />
+        Rhodococcus opacus has emerged as a microbial workhorse capable of transforming lignin—a waste product of plant biomass—into valuable biofuels and chemicals.
 
-To support these advances, we developed a genome-scale metabolic model for R. opacus, named iGR1773, which accurately predicts metabolic fluxes using transcriptomic data​. This model enables precise engineering strategies to optimize biofuel production pathways.
+        Our research focused on enhancing this bacterium’s ability to produce triacylglycerols (TAGs), a key biofuel precursor, even under nitrogen-rich conditions. By overexpressing specific transcriptional regulators, we decoupled TAG production from nutrient limitation, boosting lipid yields on lignin-derived compounds​.
 
-Additionally, we explored how engineered E. coli strains with altered fatty acid compositions can serve as platforms for diverse bio-based products, expanding the range of renewable chemicals​.
+        To support these advances, we developed a genome-scale metabolic model for R. opacus, named iGR1773, which accurately predicts metabolic fluxes using transcriptomic data​. This model enables precise engineering strategies to optimize biofuel production pathways.
 
-These breakthroughs mark critical steps toward more efficient lignin valorization, turning industrial waste into sustainable fuels and chemicals. By leveraging synthetic biology, metabolic modeling, and genetic engineering, we're bringing the vision of cost-effective, second-generation biofuels closer to reality​.
+        These breakthroughs mark critical steps toward more efficient lignin valorization, turning industrial waste into sustainable fuels and chemicals. By leveraging synthetic biology, metabolic modeling, and genetic engineering, we're bringing the vision of cost-effective, second-generation biofuels closer to reality​.
+    </p>
+</body>
+</html>
 
-Renewable energy from waste is no longer a dream—it’s a work in progress.
+
