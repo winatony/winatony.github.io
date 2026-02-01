@@ -1,53 +1,123 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
+# -----------------------------------------------------------------------------
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+# -----------------------------------------------------------------------------
 
-title: Winston E Anthony
+title: Winston E. Anthony
+first_name: Winston
+middle_name: E.
+last_name: Anthony
 email: winstoneanthony@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Computational Biologist in the PNW 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "winatony.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: winatony
-github_username:  winatony
+description: >-
+  Computational Biologist | Post-Doctoral Research Associate at Pacific Northwest National Laboratory.
+  Specializing in multi-omics, microbiome research, and machine learning applications in biology.
 
+url: https://winatony.github.io
+baseurl: ""
+
+# -----------------------------------------------------------------------------
+# Social Integration
+# -----------------------------------------------------------------------------
+github_username: winatony
+twitter_username: wanthony5800
+scholar_userid: V6UQ3UoAAAAJ
+linkedin_username: # Add if you have one
+orcid_id: # Add your ORCID if you have one
+
+# -----------------------------------------------------------------------------
+# Theme Settings
+# -----------------------------------------------------------------------------
+# Dark mode
+enable_darkmode: true
+
+# Display preferences
+max_width: 900px
+
+# Navigation
+nav_order:
+  - about
+  - cv
+  - projects
+  - publications
+  - repositories
+
+# -----------------------------------------------------------------------------
+# Blog Settings (Disabled per user preference)
+# -----------------------------------------------------------------------------
+blog_enabled: false
+
+# -----------------------------------------------------------------------------
+# Collections
+# -----------------------------------------------------------------------------
+collections:
+  news:
+    output: true
+    permalink: /news/:title/
+  projects:
+    output: true
+    permalink: /projects/:title/
+  
+# -----------------------------------------------------------------------------
+# Jekyll settings
+# -----------------------------------------------------------------------------
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
+    span:
+      line_numbers: false
+    block:
+      line_numbers: false
+
+# Sass/SCSS
+sass:
+  style: compressed
+  sass_dir: _sass
+
+# -----------------------------------------------------------------------------
+# Optional Features
+# -----------------------------------------------------------------------------
+enable_google_analytics: false
+enable_math: true
+enable_tooltips: true
+enable_project_categories: true
+enable_publication_badges: true
+
+# -----------------------------------------------------------------------------
+# GitHub repositories
+# -----------------------------------------------------------------------------
+github_repos:
+  sort_by: pushed
+  limit: 0  # 0 = show all public repos
+
+# -----------------------------------------------------------------------------
 # Build settings
-theme: minima
+# -----------------------------------------------------------------------------
 plugins:
   - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-paginate
+  - jemoji
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
-# exclude:
-#   - .sass-cache/
-#   - .jekyll-cache/
-#   - gemfiles/
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules/
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/
+  - plans/
+  - README.md
+  - LICENSE
+  - "*.bak"
+
+# Include
+include:
+  - _pages

@@ -1,0 +1,143 @@
+# Curriculum Vitae Data
+
+summary: >
+  Computational Biologist with 2.5+ years of post-doctoral experience at the Pacific Northwest National Laboratory. 
+  Specializing in multi-omics data analysis, host-microbe interactions, microbial metabolism modeling, and 
+  applying machine learning and generative AI to biological sequence data. Ph.D. experience in clinical 
+  microbiology studying the effect of antibiotics on the gut microbiome of healthy individuals.
+
+education:
+  - degree: Ph.D.
+    field: Computational Biology
+    institution: Washington University in St. Louis School of Medicine
+    location: St. Louis, MO
+    start_date: "2016"
+    end_date: "2022"
+    advisor: Gautam Dantas
+    thesis: "System shock: Using -omics data to characterize biological remodeling in the microbiome, resistome, and transcriptome of bacteria"
+    
+  - degree: B.S.
+    field: Biology
+    institution: University of Massachusetts Amherst
+    location: Amherst, MA
+    start_date: "2008"
+    end_date: "2012"
+    advisor: Lynn Adler
+    thesis: "Secondary metabolites in floral nectar reduce parasite infections in bumblebees"
+
+work:
+  - position: Post-Doctoral Research Associate
+    company: Pacific Northwest National Laboratory
+    location: Richland, WA
+    start_date: "2022"
+    end_date: null
+    description: Multi-omic computational biology research
+    highlights:
+      - Applying generative models for inferring protein characteristics from sequence
+      - Genome scale modeling for identifying microbe-microbe interactions using in silico synthetic communities
+      - Spatial multi-omic analyses estimating the effect of environmental stress on microbial communities in soil
+      - Building computational tools for identifying bacteriophage auxiliary metabolic genes in the human virome
+      
+  - position: Pivot 314 Intern - Data Scientist
+    company: Small Biotech Company
+    location: St. Louis, MO
+    start_date: "Aug 2021"
+    end_date: "Sept 2021"
+    description: AWS pipeline development for metagenomics
+    highlights:
+      - Developed an Amazon Web Services (AWS) pipeline for detecting differential gene abundance in soil metagenomes
+      - Multi-node parallel batch job structure and integrated multiple tools into a multi-container application stack
+      
+  - position: Research Fellow
+    company: Harvard Medical School
+    location: Boston, MA
+    start_date: "2013"
+    end_date: "2016"
+    description: Aging research in C. elegans
+    highlights:
+      - Large scale experiments measuring thermotolerance and lifespan in C. elegans
+      - Used automated image-analysis device developed in-house
+      - Measured effect of small molecule inhibitors of respiration and metabolism
+
+skills:
+  - category: Programming Languages
+    items:
+      - Python
+      - R
+      - Bash/Shell
+      - SQL
+      
+  - category: Machine Learning & AI
+    items:
+      - PyTorch
+      - scikit-learn
+      - PyGeometric
+      - Generative Models
+      
+  - category: Bioinformatics
+    items:
+      - Metagenomics
+      - Transcriptomics
+      - Metabolomics
+      - Genome-scale Modeling
+      
+  - category: R Packages
+    items:
+      - ggplot2
+      - tidyverse
+      - DESeq2
+      - randomForest
+      
+  - category: Python Libraries
+    items:
+      - COBRApy
+      - pandas
+      - numpy
+      - BioPython
+      
+  - category: Pipeline Development
+    items:
+      - Nextflow
+      - Snakemake
+      - Docker
+      - Singularity
+      
+  - category: Cloud & DevOps
+    items:
+      - AWS
+      - Git/GitHub
+      - GitLab CI/CD
+      - SLURM
+      
+  - category: NGS Tools
+    items:
+      - Bowtie2
+      - SAMtools
+      - FeatureCounts
+      - CarveMe
+      - Smetana
+
+awards:
+  - name: National Microbiome Data Collaborative Ambassador
+    organization: NMDC
+    year: null
+    
+  - name: Pivot 314 Fellow
+    organization: Washington University Graduate Center
+    year: "2021"
+    
+  - name: T32 NIH Ruth L. Kirschstein National Research Training Grant Fellowship
+    organization: NIH
+    year: null
+    
+  - name: Initiative for Maximizing Student Development (IMSD)
+    organization: NIH
+    year: null
+    
+  - name: NSF Summer Research Experience for Undergraduates
+    organization: National Science Foundation
+    year: null
+    
+  - name: Outstanding Abstract Award
+    organization: American Society of Microbiology
+    year: "2019"

@@ -1,0 +1,53 @@
+---
+layout: default
+---
+
+<article class="projects-page">
+  <header class="page-header">
+    <h1 class="page-title">{{ page.title }}</h1>
+    {% if page.description %}
+    <p class="page-description">{{ page.description }}</p>
+    {% endif %}
+  </header>
+
+  {% if page.categories %}
+  <div class="project-filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+    {% for category in page.categories %}
+    <button class="filter-btn" data-filter="{{ category | slugify }}">{{ category }}</button>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div class="projects-grid">
+    {% assign projects = site.projects | sort: 'importance' %}
+    {% for project in projects %}
+    <div class="project-card" data-category="{{ project.category | slugify }}">
+      {% if project.img %}
+      <div class="project-image">
+        <img src="{{ project.img | relative_url }}" alt="{{ project.title }}" loading="lazy" />
+      </div>
+      {% endif %}
+      <div class="project-content">
+        <h3 class="project-title">
+          {% if project.external_url %}
+          <a href="{{ project.external_url }}" target="_blank" rel="noopener">{{ project.title }}</a>
+          {% else %}
+          <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+          {% endif %}
+        </h3>
+        <p class="project-description">{{ project.description }}</p>
+        {% if project.tags %}
+        <div class="project-tags">
+          {% for tag in project.tags %}
+          <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+
+  {{ content }}
+</article>

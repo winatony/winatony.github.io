@@ -1,0 +1,101 @@
+# Publications Data
+
+- title: "STREAMS guidelines: standards for technical reporting in environmental and host-associated microbiome studies"
+  authors: "Kelliher, J.M., Mirzayi, C., Bordenstein, S.R., Oliver, A., Kellogg, C.A., Hatcher, E.L., Berg, M., Baldrian, P., Aljumaah, M., Miller, C.M.L. and Mungall, C."
+  venue: "Nature Microbiology"
+  year: 2025
+  selected: true
+
+- title: "Identifying Potential Geochemical and Microbial Impacts of Hydrogen Storage in a Deep Saline Aquifer"
+  authors: "Tinker, K, Anthony, W.E., Brandi, M, Flett, S, Bagwell, C, Smallwood, C, Gulliver, D"
+  venue: "Environmental Microbiology Reports"
+  year: 2025
+  selected: false
+
+- title: "From Soil to Sequence: Filling the Critical Gap in Genome-Resolved Metagenomics is Essential to the Future of Soil Microbial Ecology"
+  authors: "Anthony, W.E., Allison, S.D., Broderick, C.M. et al."
+  venue: "Environmental Microbiome"
+  volume: "19"
+  pages: "56"
+  year: 2024
+  doi: "10.1186/s40793-024-00591-8"
+  selected: true
+
+- title: "Increased triacylglycerol production in Rhodococcus opacus by overexpressing transcriptional regulators"
+  authors: "Anthony, W.E., Geng W., Diao J., Carr R., Wang B., Ning J., Moon T.S., Dantas G., Zhang F."
+  venue: "BMC Biotechnology for Biofuels and Bioproducts"
+  volume: "17"
+  pages: "83"
+  year: 2024
+  doi: "10.1186/s13068-024-02523-3"
+  selected: true
+
+- title: "A Genome Scale Model for Prediction of Growth Rates and Fluxes for Rhodococcus Opacus PD630 Metabolism"
+  authors: "Roell, G., Schenk, C., Anthony, W.E., Carr, R., Dantas, G., Tang, Y., Moon, T.S. and Martin, H.G."
+  venue: "AIChE Annual Meeting"
+  year: 2022
+  selected: false
+
+- title: "Acute and persistent effects of commonly-used antibiotics on the gut microbiome and resistome in healthy adults"
+  authors: "Anthony, W.E., Wang B, Cass C, Hink T, Reske K, Seiler S, Dubberke ER, Burnham CA, Dantas G, Kwon JH"
+  venue: "Cell Reports"
+  volume: "39"
+  pages: "2"
+  year: 2022
+  doi: "10.1016/j.celrep.2022.110649"
+  pdf: "/assets/pdf/PIIS2211124722004016.pdf"
+  selected: false
+
+- title: "Engineering diverse fatty acid compositions of phospholipids in Escherichia coli"
+  authors: "Anthony, W.E.†, Bai W.†, Hartline C., Wang S., Wang B., Ning J., Hsu FF, Dantas G., Zhang F."
+  venue: "Metabolic Engineering"
+  volume: "74"
+  pages: "11-23"
+  year: 2022
+  doi: "10.1016/j.ymben.2022.09.003"
+  selected: false
+
+- title: "The Gut Microbiome as a Reservoir for Antimicrobial Resistance"
+  authors: "Anthony, W.E., Burnham, C.A.D., Dantas, G., Kwon, J.H."
+  venue: "The Journal of Infectious Diseases"
+  year: 2020
+  doi: "10.1093/infdis/jiaa497"
+  pdf: "/assets/pdf/anthony_amr_review.pdf"
+  selected: true
+
+- title: "Development of Rhodococcus opacus as a chassis for lignin valorization and bioproduction of high-value compounds"
+  authors: "Anthony, W.E., Carr, R.R., DeLorenzo, D.M., Campbell, T.P., Shang, Z., Foston, M., Moon, T.S. and Dantas, G."
+  venue: "Biotechnology for Biofuels"
+  volume: "12"
+  pages: "1-14"
+  year: 2019
+  doi: "10.1186/s13068-019-1535-3"
+  selected: true
+
+- title: "The temporal scaling of Caenorhabditis elegans ageing"
+  authors: "Stroustrup, N., Anthony, W.E., Nash, Z.M., Gowda, V., Gomez, A., López-Moyado, I.F., Apfeld, J. and Fontana, W."
+  venue: "Nature"
+  volume: "530"
+  pages: "103"
+  year: 2016
+  doi: "10.1038/nature16550"
+  pdf: "/assets/pdf/nihms769190.pdf"
+  selected: true
+
+- title: "Testing dose-dependent effects of the nectar alkaloid anabasine on trypanosome parasite loads in adult bumble bees"
+  authors: "Anthony, W.E., Palmer-Young, E.C., Leonard, A.S., Irwin, R.E. and Adler, L.S."
+  venue: "PLoS ONE"
+  volume: "10"
+  pages: "e0142496"
+  year: 2015
+  doi: "10.1371/journal.pone.0142496"
+  selected: false
+
+- title: "Secondary metabolites in floral nectar reduce parasite infections in bumblebees"
+  authors: "Richardson, L.L., Adler, L.S., Leonard, A.S., Andicoechea, J., Regan, K.H., Anthony, W.E., Manson, J.S. and Irwin, R.E."
+  venue: "Proceedings of the Royal Society B: Biological Sciences"
+  volume: "282"
+  pages: "20142471"
+  year: 2015
+  doi: "10.1098/rspb.2014.2471"
+  selected: false
