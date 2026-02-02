@@ -26,33 +26,25 @@ layout: default
   </section>
   {% endif %}
 
-  <!-- Education -->
-  {% if site.data.cv.education %}
+  <!-- Skills -->
+  {% if site.data.cv.skills %}
   <section class="cv-section">
-    <h2 class="cv-section-title">Education</h2>
-    <div class="timeline">
-      {% for edu in site.data.cv.education %}
-      <div class="timeline-item">
-        <div class="timeline-marker"></div>
-        <div class="timeline-content">
-          <div class="timeline-header">
-            <h3 class="timeline-title">{{ edu.degree }} in {{ edu.field }}</h3>
-            <span class="timeline-date">{{ edu.start_date }} — {{ edu.end_date }}</span>
-          </div>
-          <p class="timeline-institution">{{ edu.institution }}, {{ edu.location }}</p>
-          {% if edu.thesis %}
-          <p class="timeline-thesis"><strong>Thesis:</strong> {{ edu.thesis }}</p>
-          {% endif %}
-          {% if edu.advisor %}
-          <p class="timeline-advisor"><strong>Advisor:</strong> {{ edu.advisor }}</p>
-          {% endif %}
+    <h2 class="cv-section-title">Skills</h2>
+    <div class="skills-grid">
+      {% for skill in site.data.cv.skills %}
+      <div class="skill-category">
+        <h3 class="skill-category-title">{{ skill.category }}</h3>
+        <div class="skill-items">
+          {% for item in skill.items %}
+          <span class="skill-tag">{{ item }}</span>
+          {% endfor %}
         </div>
       </div>
       {% endfor %}
     </div>
   </section>
   {% endif %}
-
+  
   <!-- Work Experience -->
   {% if site.data.cv.work %}
   <section class="cv-section">
@@ -84,18 +76,26 @@ layout: default
   </section>
   {% endif %}
 
-  <!-- Skills -->
-  {% if site.data.cv.skills %}
+  <!-- Education -->
+  {% if site.data.cv.education %}
   <section class="cv-section">
-    <h2 class="cv-section-title">Skills</h2>
-    <div class="skills-grid">
-      {% for skill in site.data.cv.skills %}
-      <div class="skill-category">
-        <h3 class="skill-category-title">{{ skill.category }}</h3>
-        <div class="skill-items">
-          {% for item in skill.items %}
-          <span class="skill-tag">{{ item }}</span>
-          {% endfor %}
+    <h2 class="cv-section-title">Education</h2>
+    <div class="timeline">
+      {% for edu in site.data.cv.education %}
+      <div class="timeline-item">
+        <div class="timeline-marker"></div>
+        <div class="timeline-content">
+          <div class="timeline-header">
+            <h3 class="timeline-title">{{ edu.degree }} in {{ edu.field }}</h3>
+            <span class="timeline-date">{{ edu.start_date }} — {{ edu.end_date }}</span>
+          </div>
+          <p class="timeline-institution">{{ edu.institution }}, {{ edu.location }}</p>
+          {% if edu.thesis %}
+          <p class="timeline-thesis"><strong>Thesis:</strong> {{ edu.thesis }}</p>
+          {% endif %}
+          {% if edu.advisor %}
+          <p class="timeline-advisor"><strong>Advisor:</strong> {{ edu.advisor }}</p>
+          {% endif %}
         </div>
       </div>
       {% endfor %}

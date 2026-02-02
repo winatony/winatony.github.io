@@ -1,36 +1,28 @@
 # Curriculum Vitae Data
 
 summary: >
-  Computational Biologist with 2.5+ years of post-doctoral experience at the Pacific Northwest National Laboratory. 
-  Specializing in multi-omics data analysis, host-microbe interactions, microbial metabolism modeling, and 
+  Data Scientist with 3 years of experience at the Pacific Northwest National Laboratory. 
+  Specializing in representation learning and graph modeling for multi-omics data analysis, host-microbe interactions, microbial metabolism modeling, and 
   applying machine learning and generative AI to biological sequence data. Ph.D. experience in clinical 
   microbiology studying the effect of antibiotics on the gut microbiome of healthy individuals.
 
-education:
-  - degree: Ph.D.
-    field: Computational Biology
-    institution: Washington University in St. Louis School of Medicine
-    location: St. Louis, MO
-    start_date: "2016"
-    end_date: "2022"
-    advisor: Gautam Dantas
-    thesis: "System shock: Using -omics data to characterize biological remodeling in the microbiome, resistome, and transcriptome of bacteria"
-    
-  - degree: B.S.
-    field: Biology
-    institution: University of Massachusetts Amherst
-    location: Amherst, MA
-    start_date: "2008"
-    end_date: "2012"
-    advisor: Lynn Adler
-    thesis: "Secondary metabolites in floral nectar reduce parasite infections in bumblebees"
-
 work:
+  - position: Data Scientist
+    company: Pacific Northwest National Laboratory
+    location: Richland, WA
+    start_date: "2025"
+    end_date: null
+    description: AI/ML for Complex Systems
+    highlights:
+      - Co-Principle investigator developing neurosymbolic/knowledge graphs for biological discovery
+      - Biological investment advisor for the PNNL autonomy initiative
+      - Current work blends multi-agent systems engineering, NER, and context graphs/world models for biological reasoning.
+
   - position: Post-Doctoral Research Associate
     company: Pacific Northwest National Laboratory
     location: Richland, WA
     start_date: "2022"
-    end_date: null
+    end_date: "2025"
     description: Multi-omic computational biology research
     highlights:
       - Applying generative models for inferring protein characteristics from sequence
@@ -39,7 +31,7 @@ work:
       - Building computational tools for identifying bacteriophage auxiliary metabolic genes in the human virome
       
   - position: Pivot 314 Intern - Data Scientist
-    company: Small Biotech Company
+    company: Pluton Biosciences
     location: St. Louis, MO
     start_date: "Aug 2021"
     end_date: "Sept 2021"
@@ -100,7 +92,6 @@ skills:
       - Nextflow
       - Snakemake
       - Docker
-      - Singularity
       
   - category: Cloud & DevOps
     items:
@@ -118,6 +109,10 @@ skills:
       - Smetana
 
 awards:
+  - name: Deep Learning 4 Science Participant and Poster Presentation
+    organization: Lawrence Berkeley National Laboratory
+    year: "2025"
+
   - name: National Microbiome Data Collaborative Ambassador
     organization: NMDC
     year: null
@@ -141,3 +136,22 @@ awards:
   - name: Outstanding Abstract Award
     organization: American Society of Microbiology
     year: "2019"
+
+education:
+  - degree: Ph.D.
+    field: Computational Biology
+    institution: Washington University in St. Louis School of Medicine
+    location: St. Louis, MO
+    start_date: "2016"
+    end_date: "2022"
+    advisor: Gautam Dantas
+    thesis: "System shock: Using -omics data to characterize biological remodeling in the microbiome, resistome, and transcriptome of bacteria"
+    
+  - degree: B.S.
+    field: Biology
+    institution: University of Massachusetts Amherst
+    location: Amherst, MA
+    start_date: "2008"
+    end_date: "2012"
+    advisor: Lynn Adler
+    thesis: "Secondary metabolites in floral nectar reduce parasite infections in bumblebees"
